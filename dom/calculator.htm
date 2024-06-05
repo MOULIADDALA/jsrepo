@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <style>
+        h1 {
+            color: rgb(255, 0, 34);
+        }
+
+        button {
+            background-color: aliceblue;
+        }
+
+        input {
+            border-color: green;
+        }
+    </style>
+    <script src="calc.js"></script>
+</head>
+
+<body bgcolor="skyblue">
+    <h1 align="center">CALCULATOR</h1>
+    <table align="center">
+        <tr>
+            <td><label for="t1">Enter Number1 :</label></td>
+            <td><input type="text" id="t1"></td>
+        </tr>
+        <tr>
+            <td><label for="t1">Enter Number2 :</label></td>
+            <td><input type="text" id="t2"></td>
+        </tr>
+        <tr>
+            <td><label for="t3">Result :</label></td>
+            <td><input type="text" id="t3" placeholder="Result"></td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="add()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="mul()">*</button>
+                <button onclick="div()">/</button>
+                <button onclick="rem()">%</button>
+            </td>
+            <td>
+                <button onclick="eraseData()">Clear</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
